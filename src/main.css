@@ -5,3 +5,9 @@
 body{
     background-color: rgb(50, 50, 50);
 }
+
+.input-form{
+    padding: 1rem;
+    width: 20rem;
+    margin: 1rem 0;
+}

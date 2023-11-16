@@ -18,7 +18,7 @@ const CreateTodo: React.FC<Props> = ({ onAddTodo }) => {
     return (
         <form onSubmit={handleSubmit}>
             <input
-                className=" p-3 my-6 w-1/6"
+                className="input-form"
                 type="text"
                 value={inputValue}
                 onChange={(e) => { setInputValue(e.target.value)}}
